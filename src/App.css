@@ -5,6 +5,17 @@
     align-items: center;
 }
 
+header {
+    display: flex;
+    /* justify-items: center;
+    align-items: center;
+    padding: 12px 4px; */
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -15,4 +26,19 @@ form {
     align-items: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.app-footer {
+    margin-top: auto;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.app-search-container {
+    display: flex;
+    flex-direction: row;
 }

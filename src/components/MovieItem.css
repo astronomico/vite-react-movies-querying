@@ -1,0 +1,33 @@
+.app-movie-item {
+    background-color: #3e6ec780;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 4px;
+    border-radius: 7px;
+
+}
+
+.app-movie-item-title {
+    font-size: 1.2rem;
+    text-align: end;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.app-movie-item-year
+{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #cecef3;
+    margin-bottom: 4px;
+    border: 1px solid #6461ff;
+    background: linear-gradient(90deg, rgba(100,97,255,1) 0%, rgba(0,212,255,1) 100%);
+    padding: 2px;
+}
+
+.app-movie-item-poster{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
