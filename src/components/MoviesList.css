@@ -1,13 +1,17 @@
 .app-movies-list-container{
     background: linear-gradient(90deg, rgba(100, 97, 255, 0.356) 0%, rgba(0, 213, 255, 0.322) 100%);
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
 
 }
 
 .app-movies-list-wrapper {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    width: 100%;
+    max-width: 800px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 14px;
+    margin: 0px;
+padding: 0px;
 }

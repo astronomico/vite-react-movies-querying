@@ -6,11 +6,6 @@ import NoMovies from "./NoMovies";
 export default function MoviesList({movies}){
   const hasMovies = movies && movies.length > 0;
   
-
-
-
-
-  
     return(
       <section className="app-movies-list-container">
         {
